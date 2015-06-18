@@ -15,7 +15,7 @@ class StaffModule extends WebModule
     public $minSize = 0;
     public $maxSize = 5368709120;
     public $maxFiles = 1;
-    public $perPage = 10;
+    public $perPage = 8;
     public $aliasModule = 'StaffModule.staff';
     public $pathBackend = '/staff/staffBackend/';
 
@@ -159,7 +159,7 @@ class StaffModule extends WebModule
 
     public function getIcon()
     {
-        return "fa fa-fw fa-bullhorn";
+        return "fa fa-fw fa-user";
     }
 
     public function getAdminPageLink()
